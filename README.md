@@ -13,7 +13,7 @@ num: The destination number of the user so it can finally send the message.
 After the input software process the data. It tries to connect to the web server. If it was successfull it scrapes the whole webcontent into two files. One file contains the old content, the other one the updated version. Finally it uses the defined content informatio so it is able to get specific data. Then it process the differences between the old and the new version. As it finishes it writes the information in a variable.
 
 On the next process step it connect to twillio server to send the message to the user.
-The user receives defined output with data about the changes, data and time.
+The user receives defined output with data about the changes, data and time. TEST
 
 ## This project should be run in a virtual enviroment with the following libraries installed:
 
